@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                lightprimary:"#FAC911",
+                primary:'#ffc600',
+                facilites:"#1A3A61",
+                infor: "#06213E",
+                darktext: "#23252A",
+                lighttext: "#FFF",
+                textdarkcolor:"#7A7A7A",
+                bgcolor:"#F9F9F9",
+                transwhite:"rgba(255,255,255,0.9)",
+                transblack:"rgba(0,0,0,0.9)",
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <section class="w-[100%] text-lighttext flex">
+        <div class="facility__layer bg-transblack w-[100vw] h-[100vh] absolute z-20 hidden">
+            <i class="fa-solid fa-xmark text-3xl youtube__close"></i>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/bRRtdzJH1oE" class="mx-auto mt-[200px]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+       <div class="left__facility w-[50%] bg-slate-500">
+          <button class="facilites__btn bg-primary text-2xl text-center w-[73px] h-[73px] rounded-[50%]  absolute top-[300px] left-[400px] group duration-500 shadow-primary">
+            <div class="w-[73px] h-[73px] rounded-[50%] border-2 border-lightprimary absolute top-[0]  group-hover:animate-ping">
+            </div>
+            <i class="fa-solid fa-play pl-1"></i></button>
+       </div>
+       <div class="right__facility w[50%] bg-facilites ">
+          <div class="p-20">
+             <h1 class="text-4xl font-bold">Our Facilities</h1>
+             <div class="flex py-10">
+               <img src="./assets/facilites_certificate.png" class="w-[76px] h-[76px] "alt="">
+               <div class="pl-7 pr-96 ">
+                <h2 class="text-2xl font-bold">Global Certificate</h2>
+                <p class="w-[400px] break-words" >Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+               </div>
+             </div>
+             <div class="flex py-10">
+                <img src="./assets/facilites_support.png" class="w-[76px] h-[76px] "alt="">
+                <div class="pl-7 pr-96">
+                 <h2 class="text-2xl font-bold">Alumni Support
+                </h2>
+                 <p class="w-[400px] break-words" >Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                </div>
+              </div>
+              <div class="flex py-10">
+                <img src="./assets/facilites_book.png" class="w-[76px] h-[76px] "alt="">
+                <div class="pl-7 pr-96">
+                 <h2 class="text-2xl font-bold">Books & Library</h2>
+                 <p class="w-[400px] break-words" >Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                </div>
+              </div>
+          </div>
+       </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

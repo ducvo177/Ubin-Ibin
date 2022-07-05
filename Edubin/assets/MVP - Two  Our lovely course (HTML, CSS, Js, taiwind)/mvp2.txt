@@ -1,0 +1,6 @@
+Cắt trang html tĩnh theo ảnh trong thư mục images
+	+ Bản web (web.png)
+	+ Responsive (mobile.png)
+Cắt form đăng ký sử dụng bootstrap theo ảnh register.png
+Gọi lấy danh sách khóa học trong phần Featured Courses từ api: https://60d4611a61160900173cb070.mockapi.io/courses
+Một số mã màu của trang web xem tại images/color.png

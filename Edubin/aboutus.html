@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary:'#ffc600',
+                infor: "#06213E",
+                darktext: "#23252A",
+                lighttext: "#FFF",
+                textdarkcolor:"#7A7A7A",
+                bgcolor:"#F9F9F9",
+                transwhite:"rgba(255,255,255,0.9)",
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <section id="aboutus" class="w-100 bg-bgcolor ">
+      <!-- About Us -->
+        <div class=" text-darktext">
+            <div class="mx-[400px]  py-[120px]">
+   <h1 class="text-xl text-darktext font-bold ">About Us</h1>
+   <div class="w-[42px] h-[3px] bg-primary my-3"></div>
+              <div class="flex">
+                <!-- Left About Us -->
+                <div class="left__about ">
+                    <h1 class="text-5xl font-bold w-[400px] break-words">Welcome to Edubin</h1>
+                    <div class="text-textdarkcolor w-[450px] break-words">
+                        <p class="py-4">Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris. 
+
+                        </p>
+                        <p class="py-4">
+                            Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+                        </p>
+                        <p class="py-4">
+                            Buci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris
+                        </p>
+                    </div>
+                    <button class="bg-primary hover:bg-[#0C2338] hover:text-white text-darktext font-semibold py-3 px-9 rounded-[4px] duration-500">
+                        Explore More
+                      </button>
+                </div>
+                <!-- Right About Us -->
+                 <div class="bg-transwhite h-[520px] w-[520px] px-[50px] py-[50px] absolute right-[400px] z-10 rounded-md">
+                  <h1 class="text-4xl font-bold pb-6">Upcoming Events</h1>    
+                  <div class="pt-5">
+                        <h2 class="text-2xl font-bold hover:text-primary duration-500 cursor-pointer">World University Convocation</h2>
+                        <div class="flex py-6 border-b-[1px] border-gray">
+                            <i class="fa-solid fa-clock text-primary my-1 mr-2"></i>
+                            <p class="text-textdarkcolor  ">12:00 AM to 11:59 PM</p>
+                        </div>
+                      </div>
+                     
+                      <div class="pt-5">
+                        <div class="flex">
+                          <i class="fa-solid fa-calendar-days text-primary  mr-2"></i> 
+                          <p class="text-textdarkcolor  ">31. March</p>
+                        </div>
+                        
+                          <h2 class="text-2xl font-bold hover:text-primary duration-500 cursor-pointer ">February Education Conferences</h2>
+                          <div class="flex py-6 border-b-[1px] border-gray">
+                              <i class="fa-solid fa-clock text-primary my-1 mr-2"></i>
+                              <p class="text-textdarkcolor  ">12:00 AM to 1:30 AM</p>
+                          </div>
+                        </div>
+                       
+                        <div class="pt-5">
+                          <h2 class="text-2xl font-bold hover:text-primary duration-500 cursor-pointer ">The Games Education Summit</h2>
+                          <div class="flex py-6 ">
+                              <i class="fa-solid fa-clock text-primary my-1 mr-2"></i>
+                              <p class="text-textdarkcolor  ">12:00 AM to 11:59 PM</p>
+                          </div>
+                        </div>
+                 </div>
+                 <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2020/08/events-bg-img.jpg" class="absolute right-5 z-0" alt="Stu">
+
+              </div>
+              <!-- About Us Footer -->
+              <div class="flex my-[100px] text-white ">
+                <div class="w-[50%]  bg-[#07294D] z-10 px-[60px] py-[60px]">
+                  <h1 class="text-3xl font-bold  ">Apply for Fall 2019</h1>
+                  <p class="py-10">
+                    Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.
+                </p>
+                <button class="bg-primary hover:bg-[#0C2338] hover:text-white  text-darktext font-semibold py-3 px-9 rounded-[4px] duration-500 ">
+                  Apply Now
+                </button>
+                </div>
+                <div class="w-[50%] bg-[#092E56] z-10  px-[60px] py-[60px] ">
+                  <h1 class="text-3xl font-bold  ">Apply for Scholarship</h1>
+                  <p class="py-10">
+                    Sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis gravida nibh vel velit auctor aliquetn.
+                </p>
+                <button class="bg-primary hover:bg-[#0C2338] hover:text-white  text-darktext font-semibold py-3 px-9 rounded-[4px] duration-500 ">
+                  Apply Now
+                </button>
+
+                </div>
+              </div>
+            </div>
+       
+         
+          </div>
+    </section>
+</body>
+</html>

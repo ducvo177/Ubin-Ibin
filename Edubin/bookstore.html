@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+/>
+<link rel="stylesheet" href="./assets/style.css">
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:'#ffc600',
+            infor: "#06213E",
+            darktext: "#23252A",
+            lighttext: "#FFF",
+            textdarkcolor:"#7A7A7A",
+            bgcolor:"#F9F9F9",
+            transwhite:"rgba(255,255,255,0.9)",
+            transblue:"rgba(18, 44, 75,0.9)"
+          },
+        },
+      },
+    };
+  </script>
+  </head>
+<body>
+    <section class="w-100 mx-[400px]"> 
+    <div class="py-[100px]">
+        <div>
+            <h1 class="text-xl  font-bold ">Book Store</h1>
+            <div class="w-[42px] h-[3px] bg-primary my-3"></div>
+            <div class="flex pb-20 justify-between">
+              <h1 class="text-5xl font-bold ">Publications  </h1>
+  
+    
+        <button class="bg-primary hover:bg-[#0C2338] hover:text-white text-darktext font-semibold py-3 px-9 rounded-[4px] duration-500">
+            All Products
+          </button>
+
+        </div>
+            
+              <div class="grid grid-cols-4 gap-10 ">
+                <div class="col-span-1 bg-[#EDF0F2]  book__block">
+                <div class="book__layer w-[249px] h-[329px] bg-transblue absolute opacity-0 book__layer  duration-500">
+                    <div class="flex px-[75px] py-[140px]">
+                        <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%] mr-5 hover:bg-primary duration-500 group  cursor-pointer">
+                            <i class="fa-solid fa-cart-arrow-down text-md text-primary py-[10px]  group-hover:text-darktext"></i>
+                        </div>
+                        <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%]  hover:bg-primary duration-500 group cursor-pointer ">
+                        
+                            <i class="fa-solid fa-magnifying-glass  text-md text-primary py-[10px] group-hover:text-darktext"></i>
+                        </div>
+                    </div>
+                  
+                   
+
+                </div>
+                <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/03/bk18.jpg" alt="" class="h-[200px] w-[160px] mx-auto my-[65px]">    
+
+                <div class="absolute text-center w-[249px] ">
+                    <h2 class="text-2xl font-bold py-5 cursor-pointer hover:text-primary duration-500">Book 9</h2>
+                    <p class="font-semibold text-xl">£45</p>
+                </div>
+                
+                </div>
+                
+                <div class="col-span-1 bg-[#EDF0F2]  book__block">
+                    <div class="book__layer w-[249px] h-[329px] bg-transblue absolute opacity-0 book__layer  duration-500">
+                        <div class="flex px-[75px] py-[140px]">
+                            <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%] mr-5 hover:bg-primary duration-500 group  cursor-pointer">
+                                <i class="fa-solid fa-cart-arrow-down text-md text-primary py-[10px]  group-hover:text-darktext"></i>
+                            </div>
+                            <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%]  hover:bg-primary duration-500 group cursor-pointer ">
+                            
+                                <i class="fa-solid fa-magnifying-glass  text-md text-primary py-[10px] group-hover:text-darktext"></i>
+                            </div>
+                        </div>
+                      
+                       
+    
+                    </div>
+                    <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/03/bk17.jpg" alt="" class="h-[200px] w-[160px] mx-auto my-[65px]">    
+    
+                    <div class="absolute text-center w-[249px] ">
+                        <h2 class="text-2xl font-bold py-5 cursor-pointer hover:text-primary duration-500">Book 8</h2>
+                        <p class="font-semibold text-xl">£20</p>
+                    </div>
+                    
+                    </div>
+                    
+                    
+
+                    <div class="col-span-1 bg-[#EDF0F2]  book__block">
+                        <div class="book__layer w-[249px] h-[329px] bg-transblue absolute opacity-0 book__layer  duration-500">
+                            <div class="flex px-[75px] py-[140px]">
+                                <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%] mr-5 hover:bg-primary duration-500 group  cursor-pointer">
+                                    <i class="fa-solid fa-cart-arrow-down text-md text-primary py-[10px]  group-hover:text-darktext"></i>
+                                </div>
+                                <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%]  hover:bg-primary duration-500 group cursor-pointer ">
+                                
+                                    <i class="fa-solid fa-magnifying-glass  text-md text-primary py-[10px] group-hover:text-darktext"></i>
+                                </div>
+                            </div>
+                          
+                           
+        
+                        </div>
+                        <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/03/bk16.jpg" alt="" class="h-[200px] w-[160px] mx-auto my-[65px]">    
+        
+                        <div class="absolute text-center w-[249px] ">
+                            <h2 class="text-2xl font-bold py-5 cursor-pointer hover:text-primary duration-500">Book 7</h2>
+                            <p class="font-semibold text-xl">£65</p>
+                        </div>
+                        
+                        </div>
+                        
+                        <div class="col-span-1 bg-[#EDF0F2]  book__block">
+                            <div class="book__layer w-[249px] h-[329px] bg-transblue absolute opacity-0 book__layer  duration-500">
+                                <div class="flex px-[75px] py-[140px]">
+                                    <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%] mr-5 hover:bg-primary duration-500 group  cursor-pointer">
+                                        <i class="fa-solid fa-cart-arrow-down text-md text-primary py-[10px]  group-hover:text-darktext"></i>
+                                    </div>
+                                    <div class="w-[40px] h-[40px] border border-primary text-center rounded-[50%]  hover:bg-primary duration-500 group cursor-pointer ">
+                                    
+                                        <i class="fa-solid fa-magnifying-glass  text-md text-primary py-[10px] group-hover:text-darktext"></i>
+                                    </div>
+                                </div>
+                              
+                               
+            
+                            </div>
+                            <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/03/bk13.jpg" alt="" class="h-[200px] w-[160px] mx-auto my-[65px]">    
+                            <div class="absolute text-center w-[249px] ">
+                                <h2 class="text-2xl font-bold py-5 cursor-pointer hover:text-primary duration-500">Book 6</h2>
+                                <p class="font-semibold text-xl">£90</p>
+                            </div>
+                            
+            
+                            </div>
+                            
+              </div>
+              
+         
+    </div>
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary:'#ffc600',
+                infor: "#06213E",
+                darktext: "#23252A",
+                lighttext: "#FFF",
+                textdarkcolor:"#7A7A7A",
+                bgcolor:"#F9F9F9",
+                transwhite:"rgba(255,255,255,0.9)",
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body>
+    <section class="w-100  bg-bgcolor ">
+    <div class="mx-[400px] text-darktext py-[120px] flex">
+    <div class="teachers__left w-[600px]">
+        <h1 class="text-xl text-darktext font-bold ">Teachers</h1>
+        <div class="w-[42px] h-[3px] bg-primary my-3"></div>
+        <h1 class="text-5xl font-bold ">Meet our Teachers</h1>
+        <p class="py-4 break-words">Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris. 
+        </p>
+        <p class="py-4"> Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris</p>
+        <p class="py-4">  Buci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt mauris </p>
+        <button class="bg-primary hover:bg-[#0C2338] hover:text-white  text-darktext font-semibold py-3 px-9 rounded-[4px] duration-500 my-10 ">Career With Us
+          </button>
+    </div>
+    <div class="teachers__right  grid grid-cols-2 grid-rows-2 mx-10 gap-8 ">
+       <div class="teachers__right--item col-span-1 row-span-1 overflow-hidden cursor-pointer group rounded-[4px] ">
+        
+        <img src="./assets/teacher_1.jpg" alt="" class=" h-[300px]  ">
+        
+            <div class="text-center  h-[75px] bg-white absolute  bottom-[560px] w-[230px] mx-[18px] rounded-sm group-hover:h-[110px] duration-500 overflow-hidden">
+                <h2 class="text-xl font-bold mt-2 hover:text-primary duration-500">Damian Green</h2>
+                <p class="text-sm text-textdarkcolor pt-1">Chairman</p>
+                <div class="pt-4">
+                    <i class="fa-brands fa-facebook-f pr-2 text-xl hover:text-primary duration-500"></i>
+                    <i class="fa-brands fa-twitter pr-2 text-xl hover:text-primary duration-500"></i>
+                    <i class="fa-brands fa-linkedin-in pr-2 text-xl hover:text-primary duration-500"></i>
+                    <i class="fa-brands fa-instagram pr-2 text-xl hover:text-primary duration-500"></i>
+                </div>
+            </div>  
+        
+       
+        
+       </div>
+       <div class="teachers__right--item col-span-1 row-span-1 overflow-hidden cursor-pointer group rounded-[4px]  ">
+        
+        <img src="./assets/teacher_2.jpg" alt="" class=" h-[300px] ">
+        <div class="text-center  h-[75px] bg-white absolute  bottom-[560px] w-[230px] mx-[18px] rounded-sm group-hover:h-[110px] duration-500 overflow-hidden">
+            <h2 class="text-xl font-bold mt-2 hover:text-primary duration-500">Rebeak Alig</h2>
+            <p class="text-sm text-textdarkcolor pt-1">Art Teacher</p>
+            <div class="pt-4">
+                <i class="fa-brands fa-facebook-f pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-twitter pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-linkedin-in pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-instagram pr-2 text-xl hover:text-primary duration-500"></i>
+            </div>
+        </div>    
+        
+       </div>
+       <div class="teachers__right--item col-span-1 row-span-1 overflow-hidden cursor-pointer group rounded-[4px] ">
+        
+        <img src="./assets/teacher_3.jpg" alt="" class=" h-[300px] ">
+        <div class="text-center  h-[75px] bg-white absolute  bottom-[230px] w-[230px] mx-[18px] rounded-sm group-hover:h-[110px] duration-500 overflow-hidden">
+            <h2 class="text-xl font-bold mt-2 hover:text-primary duration-500">Hanna Ben</h2>
+            <p class="text-sm text-textdarkcolor pt-1">Teacher</p>
+            <div class="pt-4">
+                <i class="fa-brands fa-facebook-f pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-twitter pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-linkedin-in pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-instagram pr-2 text-xl hover:text-primary duration-500"></i>
+            </div>
+        </div>  
+        
+       </div>
+       <div class="teachers__right--item col-span-1 row-span-1 overflow-hidden cursor-pointer group rounded-[4px] ">
+        
+        <img src="./assets/teacher_4.jpg" alt="" class=" h-[300px] ">
+        <div class="text-center  h-[75px] bg-white absolute   bottom-[230px] w-[230px] mx-[18px] rounded-sm group-hover:h-[100px] duration-500 overflow-hidden">
+            <h2 class="text-xl font-bold mt-2 hover:text-primary duration-500">Mark Alen</h2>
+            <p class="text-sm text-textdarkcolor pt-1">Teacher</p>
+            <div class="pt-4">
+                <i class="fa-brands fa-facebook-f pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-twitter pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-linkedin-in pr-2 text-xl hover:text-primary duration-500"></i>
+                <i class="fa-brands fa-instagram pr-2 text-xl hover:text-primary duration-500"></i>
+            </div>
+        </div>  
+        
+       </div>
+       
+    </div>
+ 
+  </div>
+    </section>
+</body>
+</html>

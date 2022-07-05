@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    primary:'#ffc600',
+                    infor: "#06213E",
+                    darktext: "#23252A",
+                    lighttext: "#FFF",
+                    textdarkcolor:"#7A7A7A",
+                    bgcolor:"#F9F9F9",
+                    transwhite:"rgba(255,255,255,0.9)",
+                    transblack:"rgba(0,0,0,0.7)",
+                  },
+                },
+              },
+            };
+          </script>
+    </head>
+<body>
+<!-- Our Courses -->
+    <section class="w-100 bg-bgcolor ">
+        <div class=" text-darktext">
+            <div class="mx-[400px]  py-[120px]">
+
+                <h1 class="text-xl text-darktext font-bold ">Our Courses</h1>
+                <div class="w-[42px] h-[3px] bg-primary my-3"></div>
+                <div class="flex pb-20 justify-between">
+                  <h1 class="text-5xl font-bold ">Featured Courses</h1>
+                  <div class="px-8">
+                    <button type='button' class='slick-prev slick-arrow prev__courses w-[40px] h-[40px] border-gray-300 border-[2px] hover:bg-primary rounded-sm hover:border-primary duration-500 text-xl'><i class="fa-solid fa-chevron-left"></i></button>
+                    <button type='button' class='slick-next slick-arrow next__courses w-[40px] h-[40px] border-gray-300 border-[2px] hover:bg-primary rounded-sm hover:border-primary duration-500 text-xl'><i class="fa-solid fa-angle-right"></i></i></button>
+                   
+                  </div>
+                </div>
+              
+                <div>
+                  <!-- Slider -->
+                
+              
+                  <div class="courses__slider  ">
+                    <div class="courses__slider--item  ">
+                      <div class="cursor-pointer h-[220px] w-[340px] overflow-hidden ">
+                        <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2021/08/CU321.jpg" class="  hover:scale-110 w-[340px] duration-500 " alt="">
+                      </div>
+                      <div class="courses__content p-8 w-[340px] bg-lighttext cursor-pointer">
+                        <div class="flex">
+                          <div class="rate  text-primary ">
+                         
+                          </div>
+                          <p class="font-semibold px-3">( 1 Review )</p>
+                        
+                        </div>
+                        <div class="ml-[210px]">  <div class="w-[60px] h-[60px] bg-primary text-center rounded-[50%] absolute top-[190px] "><p class="font-semibold leading-[60px]">$79</p></div></div>
+                       <h1 class="py-5 text-2xl font-bold hover:text-primary duration-500"> Healthy food recipes for beginners</h1>
+                       <div class="w-[100%] h-[1px] bg-gray-200"></div>
+                       <div class="courses__footer flex justify-between py-5">
+                        <div class="flex">
+                          <img src="./assets/teacher_1.jpg" class="w-[40px] h-[40px] rounded-[50%]" alt="">
+                          <h2 class="hover:text-primary duration-500 py-2 px-3 font-normal">Tom Hardy</h2>
+                        </div>
+                        <div class="flex py-2">
+                          <i class="fa-regular fa-user text-primary text-sm py-[2px] px-1"></i>
+                          <p class="text-gray-400">1</p>
+                        </div>
+                       
+
+                       </div>
+                        
+
+                      
+                      
+                    </div>
+                    </div>
+                    <div class="courses__slider--item ">
+                     <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2021/04/KH914.jpg" class="w-[340px]" alt="">
+                    </div>
+                    <div class="courses__slider--item ">
+                      <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/03/2554.jpg" class="w-[340px]" alt="">
+                      
+                    </div>
+                    <div class="courses__slider--item ">
+                      <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2020/06/BL932.jpg" class="w-[340px]" alt="">
+                    </div>
+                    <div class="courses__slider--item ">
+                      <img src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2021/08/CU2436.jpg" class="w-[340px]" alt="">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="./app.js"></script>
+
+</body>
+</html>
